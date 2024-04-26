@@ -5,12 +5,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
-		"preview": "vite preview",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
-		"test": "npm run test:integration && npm run test:unit",
-		"test:integration": "playwright test",
-		"test:unit": "vitest"
+		"serve": "vite serve"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
