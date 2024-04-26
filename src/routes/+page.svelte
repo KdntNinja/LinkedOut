@@ -1,12 +1,11 @@
 <script>
-    import {auth, onAuthStateChanged} from '$lib/firebase.js';
-
-    let isLoggedIn = false;
+    import {auth, onAuthStateChanged} from "$lib/firebase.js";
+    import { isAuthenticated } from "$lib/auth.js";
 
     onAuthStateChanged(auth, user => {
-        isLoggedIn = !!user;
-        if (typeof window !== 'undefined') {
-            window.location.href = isLoggedIn ? '/posts' : '/login';
+        isAuthenticated.set(!!user);
+        if (typeof window !== "undefined") {
+            window.location.href = user ? "/posts" : "/login";
         }
     });
 </script>
@@ -26,7 +25,3 @@
         </a>
     </div>
 </main>
-
-<style>
-    @import "./index.css";
-</style>
