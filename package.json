@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
-		"serve": "vite preview"
+		"serve": "vite serve"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
