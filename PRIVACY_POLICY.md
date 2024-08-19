@@ -3,7 +3,7 @@
 Your privacy is important to us. This privacy policy explains the personal data LinkedOut processes, how LinkedOut processes it, and for what purposes.
 
 ## Information We Collect
-- Personal identification information (e.g., name, email address, phone number, etc.)
+- Personal identification information (e.g., name, email address, etc.)
 - Usage data (e.g., IP address, browser type, pages visited, etc.)
 - Cookies and tracking technologies
 
