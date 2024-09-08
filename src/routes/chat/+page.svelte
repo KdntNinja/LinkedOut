@@ -14,7 +14,7 @@
         orderBy,
         query,
         updateDoc
-    } from "$lib/firebase.js";
+    } from "$lib/supabase.js";
 
     import BackButton from "$lib/BackButton.svelte";
 

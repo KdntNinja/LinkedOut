@@ -1,7 +1,7 @@
 <script>
 
     import {createUserWithEmailAndPassword} from "firebase/auth";
-    import {auth} from "$lib/firebase.js";
+    import {auth} from "$lib/supabase.js";
     import {userCredentials} from "$lib/store.js";
 
     let email = "";

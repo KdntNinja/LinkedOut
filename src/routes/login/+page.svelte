@@ -1,5 +1,5 @@
 <script>
-    import {auth, signInWithEmailAndPassword} from "$lib/firebase.js";
+    import {auth, signInWithEmailAndPassword} from "$lib/supabase.js";
 
     let email = "";
     let password = "";

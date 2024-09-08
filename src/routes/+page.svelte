@@ -1,5 +1,5 @@
 <script>
-    import {auth, onAuthStateChanged} from "$lib/firebase.js";
+    import {auth, onAuthStateChanged} from "$lib/supabase.js";
     import { isAuthenticated } from "$lib/auth.js";
 
     onAuthStateChanged(auth, user => {

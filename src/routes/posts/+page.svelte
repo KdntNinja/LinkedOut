@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onDestroy, onMount } from "svelte";
-    import { auth, getUserCollection } from "$lib/firebase.js";
+    import { auth, getUserCollection } from "$lib/supabase.js";
     import { onAuthStateChanged } from "firebase/auth";
     import { addDoc, deleteDoc, doc, getDocs, setDoc } from "firebase/firestore";
 
